@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Dev - Lupe</title>
+	<link href="css/index-style.css" rel="stylesheet">
+</head>
+<body class="index">
+	<script src="./JQuery Template_files/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-2.2.3.min.js"><\/script>');</script>
+	<script>
+	'use strict';
+	$(document).ready(function(){
+		$(function() {
+		    $('.index').css({
+		        'position' : 'absolute',
+		        'left' : '62%',
+		        'top' : '50%',
+		        'margin-left' : -$('.index').outerWidth()/2,
+		        'margin-top' : -$('.index').outerHeight()/2
+		    });
+		});
+	}); //end ready
+	</script>
+	<div class="title">
+	<header><h1>Lupe - Advanced Web</h1></header>
+	<nav>
+		<!--<img src="img/header-mtn.png" alt="Rocky Mountain">-->
+	</nav>
+	</div>
+	<div class="thumbnails">
+	<ul>
+		<li> A LoveNote to Bash <figure><a href="bash-ll.html" target="_blank"><img src="img/bash.png" alt="bash" height="300" width="300"></a></figure></li>
+		<li>A LoveNote to Git <figure><a href="git-ll.html" target="_blank"><img src="img/git.png" alt="git" height="300" width="300"></a></figure></li>
+		<li>A LoveNote to Github <figure><a href="github-ll.html" target="_blank"><img src="img/github.png" alt="github" height="300" width="300"></a></figure></li>
+	</ul>
+	</div>
+
+</body>
+</html>

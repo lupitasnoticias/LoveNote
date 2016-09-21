@@ -1,0 +1,101 @@
+@import 'https://fonts.googleapis.com/css?family=Anton|Baloo+Tamma';
+
+*, 
+*:before, 
+*:after { 
+	margin:0; 
+	padding:0; 
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box;
+	}
+
+.clearfix {
+  display: table;
+  content: " ";
+  clear: both;
+}
+
+.bash{
+
+	background: center center fixed no-repeat rgb(0,0,50);
+	font-family: 'Baloo Tamma', cursive;
+	font-size: 1.4em;
+	line-height: 40px;
+	color: rgb(225,225,225);
+}
+
+.left{
+	float: left;
+	max-width: 400px;
+}
+
+.right{
+	float: right;
+	max-width: 450px;
+	margin: 1em;
+}
+
+.box{
+	background: rgba(0,0,0,0.4);
+	padding: 30px;
+	max-width: 860px;
+}
+
+.container{
+
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+figure img{
+	margin-top: 8em;
+}
+
+.hide{
+	display: none;
+}
+
+h1 {
+	margin: 15%;
+}
+
+p {
+	padding: 10px;
+}
+
+nav {
+	width: 100%;
+    height: 46px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: rgb(255,255,0);
+	font-family: 'Anton', sans-serif;
+	transition: all 1500ms cubic-bezier(.16,.47,.59,.13);
+}
+
+nav a {
+	text-decoration: none;
+	padding: 10px;
+}
+
+nav ul li {
+	text-decoration: none;
+	margin-right: 0px;
+	display: inline-block;
+	line-height: 2em;
+}
+
+nav a:link, nav a:visited {
+	color: rgb(0,128,128);
+}
+
+nav a:hover, nav a:active {
+	color: rgb(185,92,0);
+	-moz-transform: scale(2);
+	-webkit-transform: scale(2);
+	-o-transform: scale(2);
+	-ms-transform: scale(2);
+	transform: scale(2);
+}
